@@ -3,8 +3,8 @@ import subprocess
 import os
 
 def randomMAC():
-    return [evenHex(), random.randint(0x00, 0xff), random.randint(0x00, 0x7f),
-            random.randint(0x00, 0x7f),
+    return [evenHex(), random.randint(0x00, 0xff), random.randint(0x00, 0xff),
+            random.randint(0x00, 0xff),
             random.randint(0x00, 0xff),
             random.randint(0x00, 0xff)]
 
